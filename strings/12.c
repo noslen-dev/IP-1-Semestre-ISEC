@@ -30,7 +30,7 @@ for(++i,j=0; aux[j]!='\0';++j,++i)//inserir a auxiliar no espaço da ultima
 s[i]='\0';
 
 if(strlen(s)!=inic) //se o tamanho da novo for diferente do tamanho da antiga
-  for(i=0; s[i]!=' ';++i); // apagar alguns carateres(caso em em que a primeira palavra e maior do que a ultima
+  for(i=0; s[i]!=' ';++i); // apagar alguns carateres(caso em em que a primeira palavra e maior do que a ultima)
   for(--i; strlen(s)!=inic;--i)
     for(pos=i; s[pos]!='\0';++pos)
       s[pos]=s[pos+1];
