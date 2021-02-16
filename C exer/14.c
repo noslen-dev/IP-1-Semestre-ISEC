@@ -23,6 +23,5 @@ arr[pos]=num;//inserir o novo numero
 for(i=0; i<dim;++i)
  printf("%d ",arr[i]);
 
-
-
+return 0;
 }
